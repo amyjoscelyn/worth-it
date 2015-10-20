@@ -14,4 +14,6 @@
 @property (nonatomic, strong) NSString *adjectivalDescription;
 @property (nonatomic) NSUInteger amountItCost;
 
+- (instancetype)initWithName:(NSString *)name descriptor:(NSString *)descriptor costInCents:(NSUInteger)amountItCost;
+
 @end

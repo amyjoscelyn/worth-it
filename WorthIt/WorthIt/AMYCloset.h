@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AMYItem.h"
 
 @interface AMYCloset : NSObject
 
-//@property (nonatomic, strong) 
+@property (nonatomic, strong) NSMutableArray *items; // of AMYItems
 
 @end

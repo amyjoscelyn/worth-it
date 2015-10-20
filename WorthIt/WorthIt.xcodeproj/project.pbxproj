@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3D52CA6D1BD6E50100636504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CA6C1BD6E50100636504 /* main.m */; };
 		3D52CA701BD6E50100636504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CA6F1BD6E50100636504 /* AppDelegate.m */; };
-		3D52CA731BD6E50100636504 /* AMYClosetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CA721BD6E50100636504 /* AMYClosetViewController.m */; };
 		3D52CA761BD6E50100636504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D52CA741BD6E50100636504 /* Main.storyboard */; };
 		3D52CA781BD6E50100636504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D52CA771BD6E50100636504 /* Assets.xcassets */; };
 		3D52CA7B1BD6E50100636504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D52CA791BD6E50100636504 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,8 @@
 		3D52CA911BD6E50100636504 /* WorthItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CA901BD6E50100636504 /* WorthItUITests.m */; };
 		3D52CAA01BD6E61600636504 /* AMYCloset.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CA9F1BD6E61600636504 /* AMYCloset.m */; settings = {ASSET_TAGS = (); }; };
 		3D52CAA31BD6E65200636504 /* AMYItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CAA21BD6E65200636504 /* AMYItem.m */; settings = {ASSET_TAGS = (); }; };
+		3D52CAA61BD6E97B00636504 /* AMYClosetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CAA51BD6E97B00636504 /* AMYClosetTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3D52CAA91BD6EC3800636504 /* AMYAddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D52CAA81BD6EC3800636504 /* AMYAddItemViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +42,6 @@
 		3D52CA6C1BD6E50100636504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D52CA6E1BD6E50100636504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D52CA6F1BD6E50100636504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D52CA711BD6E50100636504 /* AMYClosetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMYClosetViewController.h; sourceTree = "<group>"; };
-		3D52CA721BD6E50100636504 /* AMYClosetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMYClosetViewController.m; sourceTree = "<group>"; };
 		3D52CA751BD6E50100636504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D52CA771BD6E50100636504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D52CA7A1BD6E50100636504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +56,10 @@
 		3D52CA9F1BD6E61600636504 /* AMYCloset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYCloset.m; sourceTree = "<group>"; };
 		3D52CAA11BD6E65200636504 /* AMYItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYItem.h; sourceTree = "<group>"; };
 		3D52CAA21BD6E65200636504 /* AMYItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYItem.m; sourceTree = "<group>"; };
+		3D52CAA41BD6E97B00636504 /* AMYClosetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYClosetTableViewController.h; sourceTree = "<group>"; };
+		3D52CAA51BD6E97B00636504 /* AMYClosetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYClosetTableViewController.m; sourceTree = "<group>"; };
+		3D52CAA71BD6EC3800636504 /* AMYAddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYAddItemViewController.h; sourceTree = "<group>"; };
+		3D52CAA81BD6EC3800636504 /* AMYAddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYAddItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +116,11 @@
 				3D52CAA21BD6E65200636504 /* AMYItem.m */,
 				3D52CA9E1BD6E61600636504 /* AMYCloset.h */,
 				3D52CA9F1BD6E61600636504 /* AMYCloset.m */,
-				3D52CA711BD6E50100636504 /* AMYClosetViewController.h */,
-				3D52CA721BD6E50100636504 /* AMYClosetViewController.m */,
 				3D52CA741BD6E50100636504 /* Main.storyboard */,
+				3D52CAA41BD6E97B00636504 /* AMYClosetTableViewController.h */,
+				3D52CAA51BD6E97B00636504 /* AMYClosetTableViewController.m */,
+				3D52CAA71BD6EC3800636504 /* AMYAddItemViewController.h */,
+				3D52CAA81BD6EC3800636504 /* AMYAddItemViewController.m */,
 				3D52CA771BD6E50100636504 /* Assets.xcassets */,
 				3D52CA791BD6E50100636504 /* LaunchScreen.storyboard */,
 				3D52CA7C1BD6E50100636504 /* Info.plist */,
@@ -280,9 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D52CA731BD6E50100636504 /* AMYClosetViewController.m in Sources */,
 				3D52CAA31BD6E65200636504 /* AMYItem.m in Sources */,
 				3D52CA701BD6E50100636504 /* AppDelegate.m in Sources */,
+				3D52CAA61BD6E97B00636504 /* AMYClosetTableViewController.m in Sources */,
+				3D52CAA91BD6EC3800636504 /* AMYAddItemViewController.m in Sources */,
 				3D52CA6D1BD6E50100636504 /* main.m in Sources */,
 				3D52CAA01BD6E61600636504 /* AMYCloset.m in Sources */,
 			);

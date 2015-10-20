@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AMYClosetTableViewController.h
 //  WorthIt
 //
 //  Created by Amy Joscelyn on 10/20/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AMYClosetViewController : UIViewController
-
+@interface AMYClosetTableViewController : UITableViewController
 
 @end
-
